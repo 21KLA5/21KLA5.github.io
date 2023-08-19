@@ -11,7 +11,27 @@
     background-position: center;
     background-size: cover; 
     position: relative; 
-    
+
+}
+
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(26, 28, 36, 0.7), rgba(47, 49, 56, 0.7)), url(KavinWebsitePictures/OnePiece\ Backround.png);
+    background-position: center;
+    background-size: cover; 
+    position: relative; 
+
+}
+
+.header3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(26, 28, 36, 0.7), rgba(47, 49, 56, 0.7)), url(KavinWebsitePictures/DragonBallBackround.png);
+    background-position: center;
+    background-size: cover; 
+    position: relative; 
+
 }
 
 .nav-links{
@@ -65,3 +85,4 @@
     font-size: 14px; 
     color: white;
 }
+
