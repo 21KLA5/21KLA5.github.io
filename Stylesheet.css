@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .nav-links h1{
@@ -151,27 +152,21 @@
 
 .MyProjects{
     text-align: center;
-    top: auto;
-    right: auto;
-    transform: translate(-3%, 80%);
+    transform: translate(-4%, 1250%);
 }
-.MyProjects nav button{
-    background-color: white;
+
+.MyProjects button{
     border: none;
-    color: white;
+    color: black;
     padding: 10px 28px;
     text-align: center;
     display: inline-block;
     font-size: 18px;
     border-radius: 10%;
+    text-decoration: none;
+    font-family: monospace;
     
 }
-
-.MyProjects nav button a{
-    text-decoration: none;
-    color: black;
-    font-family: monospace;
-}    
 
 .MyProjects button::after{
     content:'';
@@ -204,9 +199,60 @@
     clear: both;
 }
 
-.MyProjects{
+.Projects{
     min-height: 100vh;
-    width: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(26, 28, 36, 0), rgba(47, 49, 56, 0)), url(KavinWebsitePictures/peakpx.jpg);
+    background-position: center;
     background-size: cover;
     position: relative; 
+    
+}
+
+.ProjectTitles{
+    width: 100%;
+    color: black;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+}
+
+.ProjectTitles h1{
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.BackToTop{
+    text-align: left;
+    transform: translate(3%, 1480%);
+}
+
+.BackToTop button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 0%;
+    text-decoration: none;
+    font-family: monospace;
+    
+}  
+
+.BackToTop button::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.BackToTop button:hover::after{
+    width: 100%;
 }
