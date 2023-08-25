@@ -256,3 +256,38 @@
 .BackToTop button:hover::after{
     width: 100%;
 }
+
+.AboutMeWriting{
+    color: white;
+    top: 30%;
+    left: 30%;
+    transform: translate(10%, 10%);
+}
+
+.AboutMeWriting h1{
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.AboutMeWriting p{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.FacePic{
+    border-radius: 30%;
+    transform: translate(82%, -100%);
+    
+}
+
+.AboutMeWriting h3{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.BasketballVid{
+    top: 50%;
+    left: 50%;
+    transform: translate(55%, -350%);
+    border-radius: 2%;
+}
