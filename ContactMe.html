@@ -29,13 +29,22 @@
             <h1>Contact Me Here!</h1>
         </div>
 
-        <div Class = ContactButtons>
-            <nav>
-                <button><a href = "https://www.linkedin.com/in/kavin-arasu-068950212/">Link</a></button>
-                <button class = "Linkedin"></button>
-                <button class = "Linkedin"></button>
-            </nav>
-        </div>
+        <form>
+            <div class="input-group">
+                <input type = "text" id = "name" required>
+                <label for="name">Your Name</label>
+            </div>
+            <div class="input-group">
+                <input type = "text" id = "email" required>
+                <label for="email">Email ID</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message">insert Message</label>
+            </div>
+            <button class = "submit" type="submit">SUBMIT</button>
+        </form>
+    </section>
 </body>
 
 

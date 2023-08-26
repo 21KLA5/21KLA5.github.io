@@ -44,22 +44,28 @@
     background-position: center;
     background-size: cover; 
     position: relative; 
+    overflow: -moz-hidden-unscrollable;
 
 }
 
 .header3{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(26, 28, 36, 0.7), rgba(47, 49, 56, 0.7)), url(KavinWebsitePictures/DragonBallBackround.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(47, 49, 56, 0.7)), url(KavinWebsitePictures/DragonBallBackround.png);
     background-position: center;
     background-size: cover; 
     position: relative; 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-links{
+.nav-links ul{
     flex: 1;
     text-align: right;
+    position: absolute;
+    top: 0%;
+    left: 80%;
 }
 
 .nav-links ul li{
@@ -316,7 +322,7 @@
 
 .ClickUs{
     position: absolute;
-    top: 39%;
+    top: 40%;
     left: 55%;
 }
 .ClickUs h4{
@@ -328,6 +334,7 @@
 .ContactMe{
     position:absolute;
     left: 40%;
+    top: 10%;
 }
 
 .ContactMe h1{
@@ -335,3 +342,76 @@
     font-family: monospace;
     color: white;
 }
+
+.ContactButton{
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 30%;
+    font-family: monospace;
+    position:absolute;
+    left: 45%;
+    top: 75%;
+}
+
+.ContactButton a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 20px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px; 
+    outline: 0;
+    border: 1px solid #fff;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.submit{
+    padding: 10px 0;
+    color: white;
+    outline: none;
+    background: transparent;
+    border: 1px solid white;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+
+
