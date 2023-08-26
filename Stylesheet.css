@@ -261,7 +261,7 @@
     color: white;
     top: 30%;
     left: 30%;
-    transform: translate(10%, 10%);
+    transform: translate(10%, 30%);
 }
 
 .AboutMeWriting h1{
@@ -276,7 +276,7 @@
 
 .FacePic{
     border-radius: 30%;
-    transform: translate(82%, -100%);
+    transform: translate(82%, -70%);
     
 }
 
@@ -286,8 +286,52 @@
 }
 
 .BasketballVid{
-    top: 50%;
-    left: 50%;
-    transform: translate(55%, -350%);
-    border-radius: 2%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    border-radius: 30%;
+}
+
+.KagamiPic{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    border-radius: 30%;
+}
+
+.VolleyballVid{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    border-radius: 30%;
+
+}
+
+.HinataPic{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    border-radius: 30%;
+}
+
+.ClickUs{
+    position: absolute;
+    top: 39%;
+    left: 55%;
+}
+.ClickUs h4{
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.ContactMe{
+    position:absolute;
+    left: 40%;
+}
+
+.ContactMe h1{
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
 }

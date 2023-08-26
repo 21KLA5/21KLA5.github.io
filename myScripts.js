@@ -15,3 +15,19 @@ function scrollUp(){
         behavior: "smooth",
     });
 }
+
+function vanish(){
+    document.getElementById('KagamiPic').style.display = 'none'
+}
+
+function vanish1(){
+    document.getElementById('HinataPic').style.display = 'none'
+}
+
+function appear(){
+    document.getElementById('KagamiPic').style.display = 'block'
+}
+
+function appear1(){
+    document.getElementById('HinataPic').style.display = 'block'
+}
