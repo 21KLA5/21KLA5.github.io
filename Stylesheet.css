@@ -297,6 +297,7 @@
     left: 55%;
     border-radius: 30%;
     display: auto;
+    z-index: 0;
 }
 
 .KagamiPic{
@@ -305,6 +306,7 @@
     left: 55%;
     border-radius: 30%;
     display: block;
+    z-index: 1;
 }
 
 .VolleyballVid{
@@ -313,6 +315,7 @@
     left: 55%;
     border-radius: 30%;
     display: auto;
+    z-index: 0;
 }
 
 .HinataPic{
@@ -321,6 +324,7 @@
     left: 55%;
     border-radius: 30%;
     display: block;
+    z-index: 1;
 }
 
 .ClickUs{
