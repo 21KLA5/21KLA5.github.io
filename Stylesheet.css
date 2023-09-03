@@ -314,7 +314,7 @@
     top: 45%;
     left: 55%;
     border-radius: 30%;
-    display: auto;
+    display: none;
     z-index: 0;
 }
 
